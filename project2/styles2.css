@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+
+#info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+ #info div {
+    padding: 2rem;
+    background: rgb(red, green, blue);
+     margin: 1.2rem;
+     background-color: bisque;
+     font-size: 20px;
+     border-radius: 1.5rem;
+     text-align: center;
+  }
